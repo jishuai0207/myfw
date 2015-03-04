@@ -1,10 +1,10 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-$config['menu']['0']['name'] = '文章';
-$config['menu']['0']['0']['name'] = '文章添加';
-$config['menu']['0']['0']['url'] = '#';
-$config['menu']['0']['1']['name'] = '文章分类';
-$config['menu']['0']['1']['url'] = '#';
+$config['menu']['0']['name'] = '网址';
+$config['menu']['0']['0']['name'] = '百度';
+$config['menu']['0']['0']['url'] = 'http://www.baidu.com';
+$config['menu']['0']['1']['name'] = '新浪';
+$config['menu']['0']['1']['url'] = 'http://www.sina.com';
 $config['menu']['0']['2']['name'] = '分类添加';
 $config['menu']['0']['2']['url'] = '#';
 $config['menu']['0']['3']['name'] = '文章列表';
