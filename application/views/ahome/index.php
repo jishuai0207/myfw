@@ -7,11 +7,11 @@
 <body>
 	<input type="hidden" Id="moduleId" pagename="aindex"/>
 	<div class="header">
-		<ul>
+		<dl>
 		<?php foreach($menu as $k => $v){ ?>
-			<li class="menu" index="<?php echo $k;?>"><?php echo $v['name'];?></li>
+			<dd class="menu" index="<?php echo $k;?>"><?php echo $v['name'];?></dd>
 		<?php }?>
-		</ul>
+		</dl>
 	</div>
 	<div class="center">
 		<div class="left_menu">
